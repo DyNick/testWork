@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="build/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    <script src="build/js/main.js"></script>
+
+
+    <title>Test work</title>
+
+</head>
+<body>
+<section class="top-part">
+    <h1 class="top-part__head">TOP PART</h1>
+</section>
+<section class="main-part">
+    <h1 class="event__head-primary">Инвайты для друзей</h1>
+    <nav class="event__nav ">
+        <ul class="event__list">
+            <li class="event__list__item">
+                <a href="#" class="item-link" >
+                    <img src="build/images/home.png" class="item-link__icon" alt="home">
+                    <span class="item-link__text">Шопинг-клуб</span>
+                </a>
+            </li>
+            <li class="event__nav__list__item">
+                <a href="#" class="item-link ">
+                    <i class="fa fa-angle-right item-link__icon item-link__icon--fa" aria-hidden="true"></i>
+                    <span class="item-link__text item-link__text--active">Инвайты для друзей</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="friends-event">
+        <p class="friends-event__description">
+            Вступай в шопинг-клуб SmartLIGA и подари друзьям возможность покупать электронику с огромными скидками.
+        </p>
+        <p class="friends-event__description friends-event__description--bonus">
+            Укажи e-mail друзей и свой, после чего мы отправим вам специальные купоны на 200 грн!
+        </p>
+        <h5 class="friends-event__head-secondary">ТВОИ ДРУЗЬЯ ПОЛУЧАТ ТАКОЕ ПИСЬМО:</h5>
+        <div class="friends-event__image"></div>
+    </div>
+    <div class="bonus-form">
+        <div class="bonus-form__icon"></div>
+        <form action="" class="bonus-form__main main-form">
+            <h1 class="main-form__head ">200 грн тебе</h1>
+            <div class="main-form__block ">
+                <label for="email" class="block__label block__label--your-email">Твой e-mail:</label>
+                <input type="text" id="email" class="block__input block__input--your-email">
+            </div>
+            <p class="main-form__text">На этот e-mail мы отправим код купона на 200 грн</p>
+            <h1 class="main-form__head main-form__head--friends ">и 200 грн каждому другу</h1>
+            <p class="main-form__text main-form__text--friends">E-mail друзей:</p>
+            <div class="main-form__block block">
+                <label for="email-friend-first" class="block__label block__label--number">№1</label>
+                <input type="text" id="email-friend-first" class="block__input ">
+            </div>
+            <div class="main-form__block block">
+                <label for="email-friend-second" class="block__label block__label--number">№2</label>
+                <input type="text" id="email-friend-second" class="block__input ">
+            </div>
+            <div class="main-form__block block">
+                <label for="email-friend-third" class="block__label block__label--number">№3</label>
+                <input type="text" id="email-friend-third" class="block__input ">
+            </div>
+            <div class="main-form__block">
+                <label for="email-friend-fourth" class="block__label block__label--number">№4</label>
+                <input type="text" id="email-friend-fourth" class="block__input ">
+            </div>
+            <p class="main-form__text main-form__text--bonus">Каждый друг получит код на 200 грн</p>
+            <div class="main-form__block block--thanks">
+                <label for="email-friend-thanks" class="block__label block__label--bonus">Твое имя,<span class="block__label--bonus-grey">чтобы друзья знали, кого благодарить :)</span>
+                </label>
+                <input type="text" id="email-friend-thanks" class="block__input block__input--bonus">
+            </div>
+            <button class="main-form__button">ОТПРАВИТЬ</button>
+        </form>
+    </div>
+    <div class="social-settings">
+        <h2 class="social-settings__head">А еще поделись SmartLIGA в соцсетях и все ГОТОВО!</h2>
+        <p class="social-settings__text">Чем больше членов клуба, тем больше скидки для ВСЕХ!</p>
+        <div class="social-settings__buttons">
+            <button class="social-button social-button--fb">
+                <span alt="fb" class="social-button__image social-button__image--tw"></span>
+                <span class="social-button__text" >Поделиться</span>
+            </button>
+            <button class="social-button social-button--tw">
+                <span alt="tw" class="social-button__image social-button__image--tw"></span>
+                <span class="social-button__text" >Поделиться</span>
+            </button>
+            <button class="social-button social-button--vk ">
+                <span class="social-button__image social-button__image--vk"></span>
+                <span class="social-button__text" >Поделиться</span>
+            </button>
+        </div>
+    </div>
+</section>
+<section class="bottom-part">
+    <h1 class="bottom-part__head">Bottom part</h1>
+</section>
+</body>
+</html>

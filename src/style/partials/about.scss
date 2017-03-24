@@ -1,0 +1,72 @@
+.event__head-primary.event__head-primary--about{
+	letter-spacing: 1.5px;
+	margin-top: 39px;
+	margin-left: 94px;
+}
+.bottom-part.bottom-part--about{
+	margin-top: 275px;
+}
+.event__list.event__list--about{
+	margin-left: 94px;
+	margin-bottom: 19px;
+	.item-link__icon {
+		margin-right: 7px;
+		margin-left: 3px;
+	}
+}
+.about-product{
+	@include flex-mixin(flex-start, flex-start, row);
+	position: relative;
+	width: 796px;
+	margin-left: 97px;
+	border: solid 1px #e5e5e5;
+	&__image-block{
+		width: 190px;
+		@include flex-mixin(center, center, column);
+		.price{
+			text-align: center;
+			width: 165px;
+		}
+		.image-phone{
+			margin-top: 16px;
+			margin-bottom: 4px;
+		}
+	}
+	&__cancel{
+		width: 245px;
+		display: inline-block;
+		text-align: right;
+		&-image{
+			padding-right: 5px;
+			padding-top: 5px;
+		}
+	}
+}
+.description{
+	margin-left: 14px;
+	&__head{
+		font-size: 14px;
+		font-weight: 600;
+		color: #32aaff;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	&__text{
+		font-size: 14px;
+		font-weight: normal;
+		color: #424e56;
+		line-height: 17px;
+		&--second{
+			margin-top: 21px;
+		}
+	}
+	&-link{
+		display: block;
+		right: 28px;
+		bottom: 13px;
+		position: absolute;
+		font-size: 12px;
+		font-weight: normal;
+		color: #32aaff;
+	}
+}

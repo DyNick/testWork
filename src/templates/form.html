@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../build/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin-ext">
+
+    <title>Form</title>
+</head>
+<body>
+<section class="top-part">
+    <h1 class="top-part__head top-part__head--form" >TOP PART</h1>
+</section>
+<section class="main-part">
+    <h1 class="event__head-primary event__head-primary--sent">Отправить сообщение нам</h1>
+    <nav class="event__nav ">
+        <ul class="event__list event__list--form">
+            <li class="event__list__item">
+                <a href="#" class="item-link" >
+                    <img src="build/images/home.png" class="item-link__icon item-link__icon--form" alt="home">
+                    <span class="item-link__text item-link__text--form">Шопинг-клуб</span>
+                </a>
+            </li>
+            <li class="event__nav__list__item">
+                <a href="#" class="item-link ">
+                    <i class="fa fa-angle-right item-link__icon item-link__icon--fa" aria-hidden="true"></i>
+                    <span class="item-link__text item-link__text--form item-link__text--active">Отправить сообщение </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <p class="sent-description">У Вас возник вопрос по поводу работы нашего шопинг-клуба?
+        Что-то случилось с товаром, который Вы у нас приобрели? А может у Вас есть интересное предложение? Не стесняйтесь,
+        используйте форму ниже, чтобы отправить нам сообщение. Мы ответим в течение 24 часов! :)
+    </p>
+    <div class="sent-menu ">
+        <ul class="menu-list clearfix">
+            <li class="menu-list__item menu-list__item--active"><a href="#" class="menu-list__item__link">Сообщение</a></li>
+            <li class="menu-list__item"><a href="#" class="menu-list__item__link">Вопрос</a></li>
+            <li class="menu-list__item"><a href="#" class="menu-list__item__link">Предложение</a></li>
+            <li class="menu-list__item"><a href="#" class="menu-list__item__link">Жалоба</a></li>
+        </ul>
+    </div>
+    <div class="sent clearfix">
+        <div class="sent__form">
+            <p class="sent__form__text">Ваше сообщение:</p>
+            <textarea class="sent__form__textarea"></textarea>
+            <label for="sent-email" class="sent__form__label">Ваш E-mail
+                <span class="sent__form__label-grey">(на него мы отправим ответ)</span>
+            </label>
+            <input type="text" id="sent-email"  class="sent__form__input">
+            <button class="sent__form__button">ОТПРАВИТЬ</button>
+        </div>
+        <div class="sent__contact">
+            <h3 class="sent__contact__head">КОНТАКТЫ:</h3>
+            <div class="sent__contact__phone phone">
+                <img src="../../build/images/auricular-phone-symbol-in-a-circle.png" class="phone__icon">
+                <span class="phone__number">098 105 72 39</span>
+            </div>
+            <div class="sent__contact__or">
+                или hello@smartliga.club для ваших писем и обращений!
+            </div>
+            <div class="sent__contact__work-time">
+                График работы call-центра шопинг-клуба
+            </div>
+            <div class="sent__contact__all-time">
+                Круглосуточно 24/7
+            </div>
+            <div class="sent__contact__address address">
+                <h3 class="address__head">АДРЕС:</h3>
+                <span class="address__description">Адрес: 03057 Украина, г. Киев, ул. Полевая, 21</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="bottom-part bottom-part--form">
+    <h1 class="bottom-part__head">Bottom part</h1>
+</section>
+</body>
+</html>
